@@ -1,0 +1,28 @@
+plugins { // 프로젝트에서 사용하는 그레이들 플러그인 정의
+    id 'org.springframework.boot' version '3.2.4'
+    id 'java'
+    id 'io.spring.dependency-management' version '1.1.4'
+}
+
+
+
+group = 'example.queue.module'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("org.springframework.boot:spring-boot-starter-logging")
+    implementation('org.redisson:redisson-spring-boot-starter:3.29.0')
+    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.17.2'
+
+
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+test {
+    useJUnitPlatform()
+}
