@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22ce0c79-b6a7-426d-aac5-9ed9d1d0958f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/redis/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +76,9 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -129,31 +131,7 @@
       <recent name="example.queue.module.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RedisQueueReaderTest">
-    <configuration name="RedisCounterReaderTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;example.queue.module.counter.RedisCounterReaderTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.spring_queue_module [test]">
     <configuration name="RedisQueueReaderTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -250,13 +228,35 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="spring_queue_module [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.spring_queue_module [test]" />
         <item itemvalue="Gradle.RedisQueueReaderTest" />
         <item itemvalue="Gradle.RedisQueueReaderTest.readQueue" />
         <item itemvalue="Gradle.RedisQueueWriterTest" />
         <item itemvalue="Gradle.RedisQueueWriterTest.publishEvent_success" />
-        <item itemvalue="Gradle.RedisCounterReaderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +276,7 @@
       <option name="presentableId" value="Default" />
       <updated>1725183731610</updated>
       <workItem from="1725183732949" duration="5980000" />
-      <workItem from="1725189941556" duration="5559000" />
+      <workItem from="1725189941556" duration="6653000" />
     </task>
     <servers />
   </component>
