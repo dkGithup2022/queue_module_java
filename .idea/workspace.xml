@@ -5,39 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22ce0c79-b6a7-426d-aac5-9ed9d1d0958f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/queue/module/LuaScriptUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/queue/module/api/CounterReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/queue/module/api/CounterWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/queue/module/api/QueueReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/queue/module/api/QueueWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/queue/module/counter/RedisCounterReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/queue/module/counter/RedisCounterWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/queue/module/counter/dto/CounterPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/queue/module/data/CounterEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/queue/module/data/QueueEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/queue/module/data/QueueEventSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/queue/module/queue/RedisQueueReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/queue/module/queue/RedisQueueWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/queue/module/redis/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/example/queue/module/RedisTestHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/example/queue/module/TestApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/example/queue/module/counter/RedisCounterReaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/example/queue/module/counter/RedisCounterWriterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/example/queue/module/queue/RedisQueueReaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/example/queue/module/queue/RedisQueueWriterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/example/queue/module/testData/ArticleViewUpEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/example/queue/module/testData/LikeArticleAlarmEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -306,7 +276,7 @@
       <option name="presentableId" value="Default" />
       <updated>1725183731610</updated>
       <workItem from="1725183732949" duration="5980000" />
-      <workItem from="1725189941556" duration="5443000" />
+      <workItem from="1725189941556" duration="5559000" />
     </task>
     <servers />
   </component>
